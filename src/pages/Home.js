@@ -1,13 +1,17 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import '..//App.css';
+// import Cards from '../Cards';
+import HeroSection from '../pages/HeroSection';
+// import Footer from '../Footer';
 
-const Home = () => {
+function Home() {
   return (
     <>
-        {/* <Navigation/> */}
-      <h1>Home</h1>
+      <HeroSection />
+      {/* <Cards /> */}
+      {/* <Footer /> */}
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
