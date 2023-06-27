@@ -1,16 +1,16 @@
-.navbar{
+.navbar {
   background-color: rgb(106, 211, 230) !important;
-  border-style:outset!important;
+  border-style: outset !important;
   border-color: blueviolet !important;
   font-size: 30px 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   flex: content;
   align-items: center;
   justify-content: center;
 }
 
-
-.nav-link{
+.nav-link {
   text-align: center !important;
   justify-content: center !important;
   align-items: center !important;

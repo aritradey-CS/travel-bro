@@ -1,14 +1,13 @@
-import React from 'react';
+import React from "react";
 // import Navigation from './Navigation';
-
 
 const Product = () => {
   return (
     <>
-        {/* <Navigation/> */}
+      {/* <Navigation/> */}
       <h1>Product</h1>
     </>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;

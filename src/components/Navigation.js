@@ -1,9 +1,9 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import './Navbar.css';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import "./Navbar.css";
 
-const Navigation = () =>  {
+const Navigation = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -14,89 +14,14 @@ const Navigation = () =>  {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/product">Product</Nav.Link>
-            
-
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
-}
+};
 
 export default Navigation;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ------------------------------------------------------------------------------------------------------------
 // import React, { useState, useEffect } from "react";
@@ -130,17 +55,13 @@ export default Navigation;
 //       <nav className="navbar">
 //         <div className="navbar-container">
 
-
 //           <Link to="/" className="navbar-logo">
 //             Travel-Bro! <i className="fab fa-typo3" />
 //           </Link>
 
-          
 //           <div className="menu-icon" onClick={handleClick}>
 //             <i className={click ? "fas fa-times" : "fas fa-bars"} />
 //           </div>
-
-
 
 //           <ul className={click ? "nav-menu active" : "nav-menu"}>
 
@@ -149,7 +70,6 @@ export default Navigation;
 //                 Home
 //               </Link>
 //             </li>
-
 
 //             <li className="nav-item">
 //               <Link
@@ -160,7 +80,6 @@ export default Navigation;
 //               </Link>
 //             </li>
 
-
 //             <li className="nav-item">
 //               <Link
 //                 to="/product"
@@ -169,8 +88,7 @@ export default Navigation;
 //                 Product
 //               </Link>
 //             </li>
-            
-            
+
 //             <li className="nav-item">
 //               <Link
 //                 to="/sign-up"
@@ -181,7 +99,6 @@ export default Navigation;
 //             </li>
 //           </ul>
 
-
 //           {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
 //         </div>
 //       </nav>
@@ -191,4 +108,3 @@ export default Navigation;
 
 // export default Navbar;
 // --------------------------------------------------------------------------------------------------
-
